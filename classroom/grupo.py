@@ -24,7 +24,7 @@ class Grupo:
         self.listadoAlumnos = self.listadoAlumnos + lista
 
     def __str__(self):
-        string = "Grupo de estudiantes:" + self._grupo
+        string='Grupo de estudiantes:'+' '+self._grupo
         return string
 
     #@ classmethod
